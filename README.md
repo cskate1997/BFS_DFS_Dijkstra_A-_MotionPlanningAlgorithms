@@ -58,7 +58,7 @@ Run your code with `python main.py`. You could use the map **map.csv** I provide
 ![bfs](https://github.com/cskate1997/BFS_DFS_Dijkstra_A-_MotionPlanningAlgorithms/assets/94412831/84943072-f179-4669-9409-736addc27907)
 
 ## DFS Test Case 1
-![d](https://github.com/cskate1997/BFS_DFS_Dijkstra_A-_MotionPlanningAlgorithms/assets/94412831/68c40707-ef2a-4101-8853-27b9cdcf1203)
+![df](https://github.com/cskate1997/BFS_DFS_Dijkstra_A-_MotionPlanningAlgorithms/assets/94412831/a88dde81-ba68-4070-b92b-2a2a84361f76)
 
 ## DFS Test Case 2
 ![dfs](https://github.com/cskate1997/BFS_DFS_Dijkstra_A-_MotionPlanningAlgorithms/assets/94412831/ac7061d0-5d7e-42a1-8798-c83ba2423dcb)
