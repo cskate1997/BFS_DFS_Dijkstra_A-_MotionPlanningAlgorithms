@@ -43,41 +43,40 @@ There should be 4 maps shown representing the results of 4 algorithms. As said b
 
 Until now, I hope you have a basic understanding of the template code and the requirements. After you go through the Rubrics below, you may start coding! 
 
-## Rubrics
+Run your code with `python main.py`. You could use the map **map.csv** I provided, but I encourage you to create your own map. Run the test and see the paths you found and the steps/time it takes for these algorithms to find them. Try to briefly explain the reason why different algorithm gives different or same result.
 
-- (0.5 pts) A clear structure without duplicating your code.
+## A* Test Case 1
+![a](https://github.com/cskate1997/BFS_DFS_Dijkstra_A-_MotionPlanningAlgorithms/assets/94412831/72d5765d-467b-4904-9bb1-da7d885ccc01)
 
-  Please figure out the similarity of these four algorithms. As they are somewhat similar, if you implement them separately, you would end up writing a lot of duplicated codes or copying codes here and there. First, it's not a good practice to do so. It also does not reflect your deeper understanding of these algorithms. Please find out the similarity and construct your code in a way that you would not duplicate the codes.
+## A* Test Case 2
+![as](https://github.com/cskate1997/BFS_DFS_Dijkstra_A-_MotionPlanningAlgorithms/assets/94412831/efc67c46-b440-4063-bd0b-b25ce66df882)
 
-  ---
+## BFS Test Case 1
+![b](https://github.com/cskate1997/BFS_DFS_Dijkstra_A-_MotionPlanningAlgorithms/assets/94412831/a997cdd0-347d-4c9a-b8f9-f47e5a9299d3)
 
-- (1 pts) Your algorithms pass the basic doc test.
+## BFS Test Case 2
+![bfs](https://github.com/cskate1997/BFS_DFS_Dijkstra_A-_MotionPlanningAlgorithms/assets/94412831/84943072-f179-4669-9409-736addc27907)
 
-  After implementation, as mentioned before, you could run the doc test by:
+## DFS Test Case 1
+![d](https://github.com/cskate1997/BFS_DFS_Dijkstra_A-_MotionPlanningAlgorithms/assets/94412831/68c40707-ef2a-4101-8853-27b9cdcf1203)
 
-  `python search.py`
+## DFS Test Case 2
+![dfs](https://github.com/cskate1997/BFS_DFS_Dijkstra_A-_MotionPlanningAlgorithms/assets/94412831/ac7061d0-5d7e-42a1-8798-c83ba2423dcb)
 
-  If you see nothing, it means you pass the simple doc test.
+## Dijakstra Test Case 1
+![d](https://github.com/cskate1997/BFS_DFS_Dijkstra_A-_MotionPlanningAlgorithms/assets/94412831/814c6c6c-d5c1-4172-8307-f4645bbd764b)
 
-  ---
+## Dijakstra Test Case 2
+![dj](https://github.com/cskate1997/BFS_DFS_Dijkstra_A-_MotionPlanningAlgorithms/assets/94412831/439195e2-c7d3-4a1f-a06e-41780bd7d624)
 
-- (4 pts) Your algorithms pass all the tests for grading.
 
-  We will use a grader code with other test cases for grading. Please think of different possible test cases yourself, modify **test.csv** to create your own map and check the result. It's a good practice to think of boundary cases, a map that does not have a valid path, for instance.
 
-  ---
 
-- (1.5 pts) Documentation
 
-  Besides the code, you should also include a documentation with the following content:
 
-  - Code and algorithm explanation
 
-    You should briefly explain how these four algorithms work. How they are different and similar. A pseudocode could be helpful for explanation.
 
-  - Test example, test result and explanation
 
-    Run your code with `python main.py`. You could use the map **map.csv** I provided, but I encourage you to create your own map. Run the test and see the paths you found and the steps/time it takes for these algorithms to find them. Try to briefly explain the reason why different algorithm gives different or same result.
 
   - Reference paper and resources if any
 
